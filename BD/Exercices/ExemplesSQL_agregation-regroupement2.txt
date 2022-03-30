@@ -1,0 +1,15 @@
+
+
+SELECT titre, prix * 1.5 as nvprix FROM `livres`; OU
+SELECT titre, prix *1.5 nvprix FROM `livres`
+
+select count(*) from auteurs;
+select count(nationalité) from auteurs;
+select count( distinct nationalité) from auteurs;
+select max(prix) from livres;
+select min(prix) as prixmin from livres;
+  select titre,min(prix) from livres; !!!!!!Mixing of GROUP columns (MIN(),MAX(),COUNT(),...) 
+                                            with no GROUP columns is illegal if there is no GROUP BY clause 
+select min(prix) from livres where genre='roman';
+select avg(nb_pg) from livres, auteurs where auteur_id=id_auteur and nationalité='belge';
+select nationalité,avg(nb_pg) from livres, auteurs where auteur_id=id_auteur and prix >500 group by nationalité;

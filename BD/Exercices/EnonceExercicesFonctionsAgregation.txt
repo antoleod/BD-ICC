@@ -1,0 +1,10 @@
+1. Nombre minimum d'exemplaires des livres
+2. Afficher le titre , le genre et le prix minimum par genre dans la table livre   
+3. Afficher le prix max des livres dont genre est différent de scolaire
+4. Le nombre total d’exemplaires de la table livres
+5. Nombre total d’exemplaires édités chez gallimard
+6. Nombre de livres dont la critique est "très bon" ou "mauvais" ou "excellent" présenté par critique
+7. Nombre de lignes par éditeur dans la table livre
+8. Prix total d’acquisition de tous les livres
+9. Idem mais livres édités après 1950
+10.La moyenne du nombre de pages des livres dont le prix est supérieur à 500 et écrits par des auteurs de nationalité "Belge" ou "Français";

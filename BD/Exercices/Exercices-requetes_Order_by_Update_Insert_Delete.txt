@@ -1,0 +1,8 @@
+Requête permettant d'insérer 5 nouveaux auteurs dans la table auteurs dont 2 au moins auront la nationalité "Turque" 
+l'un né avant 1950,l'autre après 1950;
+Requête permettant d'affecter la ville d'Arlon aux emprunteurs habitant la ville de "Liège";
+Suppression au sein de la table auteur des auteurs de nationalité "turque" nés après 1950;
+Présentation des titres des ouvrages de la table livres triés par ordre décroissant en fonction de leur année d'édition;
+Présentation des titres des ouvrages de la table livres triés par ordre croissant en fonction de critique et 
+par ordre décroissant en fonction de leur année d'édition;
+
